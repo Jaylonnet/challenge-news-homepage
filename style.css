@@ -156,3 +156,58 @@ body {
   font-size: 1rem;
   background: var(--off-white);
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--off-white);
+  border-radius: none;
+  cursor: pointer;
+}
+
+.btn--orange {
+  background-color: var(--soft-red);
+}
+
+/* || Container */
+
+.container {
+  padding: 30px 15px;
+  margin: 0 auto;
+}
+
+/* || Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* || Main content */
+
+.main {
+  margin-top: 2rem;
+}
+
+.article__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 1rem;
+}
+
+.article__text {
+  color: var(--dark-gray-blue-blue);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
